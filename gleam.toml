@@ -1,0 +1,11 @@
+name = "gleam_pubsub"
+version = "0.1.0"
+description = "Simple pub/sub pattern for the Gleam language"
+license = "Apache-2.0"
+gleam = ">= 0.38.0"
+
+[dependencies]
+gleam_stdlib = ">= 0.38.0 and < 2.0.0"
+
+[dev-dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
